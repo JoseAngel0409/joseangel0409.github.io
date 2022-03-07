@@ -12,15 +12,15 @@
 	   }
 		.vida{
 		text-align: center;	
-		margin:0px auto;
+		margin:10px auto;
 		color: #d3a625;
 		border: 5px solid #000000;
-		padding: 15px;
+		padding: 20px;
 	    border-radius: 25px;
 		width: 50%;
 	    background-color: #740001;
 	    position: relative;
-		top: -890px;
+		top: -300px;
 		}
 		.sol{
 			background-color: #740001;
@@ -28,7 +28,7 @@
 			border: 5px solid #000000;
 			padding: 20px;
 			position: relative;
-			top: -900px;
+			top: -420px;
 		}
 		.header{
 		text-align: center;	
@@ -37,25 +37,27 @@
 		border: 5px solid #000000;
 		padding: 15px;
 	    border-radius: 25px;
-		width: 50%;
+		width: 60%;
 	    background-color: #740001;
 	    position: relative;
-		top: 140px;
+		top: 10px;
+		right: -10px;;
 		}
 		.yo{
 		position: relative;
-		top: -346px;
-		right: -70px
+		top: -430px;
 		}
 		.yo2{
-        position: relative;
-		top: -905px;
-		right: -2100px
+		position: relative;
+		top: -170px;
 		}
 		.yo3{
 		position: relative;
-		top: -750px;
-		right: -1025px
+		top: -2200px;
+		}
+		.yo4{
+		position: relative;
+        top: -1500px;
 		}
 		.letilines{
 		text-align: center;	
@@ -64,10 +66,11 @@
 		border: 5px solid #000000;
 		padding: 15px;
 	    border-radius: 25px;
-		width: 50%;
+		width: 30%;
 	    background-color: #740001;
 	    position: relative;
-		top: 100px;	
+		top: 10px;
+		right: -10px;	
 		}
 		.apodos{
 			background-color: #740001;
@@ -75,7 +78,7 @@
 			border: 5px solid #000000;
 			padding: 20px;
 			position: relative;
-			top: -865px;
+			top: -200px;
 		}
 		.texto{
          	background-color: #740001;
@@ -83,12 +86,12 @@
 			border: 5px solid #000000;
 			padding: 20px;
 			position: relative;
-			top: -840px;
+			top: -150px;
 		}
 		.moris{
 		position: relative;
-		top: -800px;
-		right: -1025px
+		top: -150px;
+		
 		}
 		.carta{
          	background-color: #740001;
@@ -96,7 +99,14 @@
 			border: 5px solid #000000;
 			padding: 20px;
 			position: relative;
-			top: -780px;
+			top: -150px;
+		}
+		.boton{
+			border: 10px solid #2e518b; /*anchura, estilo y color borde*/
+            padding: 10px; /*espacio alrededor texto*/
+            background-color: #2e518b; /*color botón*/
+            border-radius: 50px; /*bordes redondos*/
+            text-align: center;
 		}
 </style>
 </head>
@@ -104,7 +114,7 @@
 <body class="contenido">
 
 	<div class="letilines">
-	 <h2>Le Tilines #7</h2>
+	 <h2>Le Tiline #7</h2>
 	</div>
 
 <br>
@@ -113,18 +123,17 @@
        Fecha de nacimiento: 2 de junio del 2005<br><br>
        Lugar donde estudia: Cetis 107 <br><br>
        Número de telefono: 667 451 9514 <br><br>
-       Cantantes favoritos: José José, Luis Miguel, The strokes y Joji <br><br>
+       Cantantes/Bandas favoritos: José José, Luis Miguel, The strokes y Joji <br><br>
        Musicas favoritas: True Love Waits, Selfless, Like You Do, Razorblade y Sanctuary <br><br>
        Peliculas favoritas: Ventajas de ser invisible (AMO), Eterno Resplandor de una mente sin recuerdos, 500 días con ella y The Batman<br><br>
        Sagas/Trilogias favoritas: El hombre araña, Harry Potter y Piratas del caribe
        </div>
 
     <div class="yo">
-    <img src="Yo.jpeg" width="15%" border="7" aling="right">
-    </div>
-
+    <img src="Yo.jpeg" width="15%" border="5" aling="right">
+    </div> 
     <div class="yo2">
-    <img src="Yo2.jpeg" width="12%" border="7" aling="right">
+    <img src="Yo2.jpeg"  width="12%" border="5" align="right" >
     </div>
 
     <div class="sol">
@@ -143,8 +152,8 @@
 <br>
     <div class="vida">
     Tambien este chicuelo tiene mascotas WOOW!!! pero solo 1 por que el otro no es suyo ;(<br>
-   	 <img src="Lolis.jpeg" width="20%">
-   	 <img src="Django.jpeg"  width="20%">
+   	 <img src="Lolis.jpeg" width="15%">
+   	 <img src="Django.jpeg"  width="15%">
 
      </div>
 
@@ -165,7 +174,7 @@
     </div>
 
     <div class="moris">    
-  	<img src="Moris.jpeg"  width="20%" border="7" aling="right">
+  	<p align="center"><img src="Moris.jpeg"  width="20%" border="5">
     </div>
     
     <div class="carta">
@@ -174,11 +183,15 @@
     </div>
 
     <div class="yo3">
-      	<img src="Yo3.jpeg"  width="20%" border="7" aling="right">
+     <img src="Yo3.jpeg"  width="15%" border="5" align="right">
 	</div>
 
-<div>
-<input type="button" value="Regresar a la lista" onClick="history.go(-1);">
+	 <div class="yo4">
+     <p align="left"><img src="Yo4.jpeg"  width="15%" border="5">
+	 </div>
+
+<div class="boton">
+<input type="button" value="Regresar a la lista" onClick="history.go(-1); ">
 </div>
 
 </body>
